@@ -25,7 +25,7 @@ Em sua página HTML, na seção head insira a chamada para a folha de estilos (p
         <link href="./avcookies.css" rel="stylesheet">
     </head>
 
-Agora, no final de seu corpo HTML (preferencialmente logo antes de fechar o **body**>) insira a chamada para o script:
+Agora, no final de seu corpo HTML (preferencialmente logo antes de fechar o **body**) insira a chamada para o script:
 
         <script src="./avcookies.js"></script>
     </body>
