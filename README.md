@@ -25,7 +25,16 @@ Em sua página HTML, na seção head insira a chamada para a folha de estilos (p
         <link href="./avcookies.css" rel="stylesheet">
     </head>
 
-Agora, no final de seu corpo HTML (preferencialmente logo antes de fechar o **body**) insira a chamada para o script:
+Ainda na página HTML, adicione o corpo do aviso de cookies, no final do conteúdo (antes do fim do **body**)
+
+    <!-- Box para o aviso LGPD -->
+    <div class="box-cookies hide">
+        <p class="msg-cookies">Este site usa cookies para garantir que você obtenha uma melhor experiência.</p>
+        <button class="btn-cookies">Aceitar!</button>
+    </div>
+    <!-- Fim Box para o aviso LGPD -->
+
+Agora, ainda no final de seu corpo HTML (preferencialmente logo antes de fechar o **body**) insira a chamada para o script:
 
         <script src="./avcookies.js"></script>
     </body>
